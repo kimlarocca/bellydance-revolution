@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Bellydance Revolution . New Jersey Bellydance Classes . NJ Bellydance Classes . Online Bellydance Classes</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="twd_container"> 
+  <!-- if the browser is IE 9 or below add twd_ie class to the main container --> 
+  <!--[if lt IE 10]>
+  <script>document.getElementById('twd_container').className += ' twd_ie';</script>
+  <![endif]-->
+  
+  <div id="navigation"> 
+    <div class="logo"><img src="images/logo-orange.png" width="250" height="209" alt="bellydance revolution - belly dance classes in new jersey, nj belly dance class"/></div>
+    <ul>
+      <li><a href="index.html" id="home">home</a></li>
+      <li><a href="bellydance.html" id="schedule">schedule</a></li>
+      <li><a href="bellydance-classes.html" id="classes">classes</a></li>
+      <li><a href="videos.html" id="videos">videos</a></li>
+      <li><a href="contactUs.html" id="directions">directions</a></li>
+      <li><a href="register.html" id="subscribe">pay online</a></li>
+    </ul>
+    <div class="twd_horizontallyCentered twd_hideOnMobile" style="margin-top:5px"><img src="images/separator.png" width="160" height="3" alt="bellydance revolution - belly dance classes in new jersey, nj belly dance class"/></div>
+  </div>
+  <div id="menu">
+    <div id="hamburger"><span></span><span></span><span></span></div>
+  </div>
+  <!-- InstanceBeginEditable name="main" -->
+  <div id="mainContent">
+  <div class="classesPage"></div>
+    <div class="twd_row twd_changeTabletDirection layout2 twd_centered" style="min-height:100%; padding:10px 0 10px 0">
+      <!-- cabaret -->
+      <div class="twd_centered twd_two twd_padding3 twd_margin30 twd_centered" id="cabaretBox">
+        <div class="twd_blockItems">
+          <div class="boxes cabaretButton"><img src="images/CabaretStyleBellydance.png" width="320" height="170" alt="cabaret style bellydance"/></div>
+          <a href="#" class="button2 cabaretButton">learn more</a> </div>
+      </div>
+      <div class="twd_centered twd_two twd_padding3 twd_margin30 twd_centered" id="cabaretInfo" style="display:none">
+        <div class="twd_blockItems">
+          <div class="boxes"><img src="images/CabaretStyleBellydance.png" width="320" height="170" alt="cabaret style bellydance"/></div>
+          <h2>Learn cabaret style belly dance through technique, drills and fun choreography!</h2>
+          <p style="padding-bottom:30px">Take your technique to the next level with this mixed level raqs sharqi class. Cabaret style bellydance, or "raqs sharqi", uses traditional Turkish and Egyptian movements. This class is designed to improve basic technique as well as enhance your movement vocabulary through more complex drills and combinations. A perfect class for any beginner or intermediate level dancer.</p>
+          <a href="bellydance.html" class="button2">view schedule</a>&nbsp;<a href="#" class="button2 viewClasses">view classes</a>
+        </div>
+      </div>
+      <!-- tribal fusion -->
+      <div class="twd_centered twd_two twd_padding3 twd_margin30 twd_centered" id="tribalBox">
+        <div class="twd_blockItems">
+          <div class="boxes tribalButton"><img src="images/TribalFusionStyleBellydance.png" width="320" height="170" alt="cabaret style bellydance"/></div>
+          <a href="#" class="button2 tribalButton">learn more</a> </div>
+      </div>
+      <div class="twd_centered twd_two twd_padding3 twd_margin30 twd_centered" id="tribalInfo" style="display:none">
+        <div class="twd_blockItems">
+          <div class="boxes"><img src="images/TribalFusionStyleBellydance.png" width="320" height="170" alt="cabaret style bellydance"/></div>
+          <h2>Learn (&amp; perform if you choose) complete tribal fusion belly dance choreographies.</h2>
+          <p style="padding-bottom:30px">Tribal Fusion Bellydance is choreographed American Tribal Style Bellydance fused with other related dance styles including American Nightclub/Cabaret Bellydance and Hip Hop. Our mixed level classes can be fast paced at times. Basic bellydance knowledge is helpful, but beginners are welcome as long as you are comfortable and feel you can keep up!</p>
+          <a href="bellydance.html" class="button2">view schedule</a>&nbsp;<a href="#" class="button2 viewClasses">view classes</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- InstanceEndEditable -->
+</div>
+<link rel="stylesheet" type="text/css" href="css/flex-grids.css"/>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+<script src="js/main.js"></script>
+<!-- InstanceBeginEditable name="scripts" --> 
+<script>
+$(".viewClasses").click(function() {
+	$("#cabaretInfo").fadeOut("fast");
+	$("#tribalInfo").fadeOut("fast");
+	$("#cabaretBox").delay(500).fadeIn("fast");
+	$("#tribalBox").delay(500).fadeIn("fast");
+});
+$(".cabaretButton").click(function() {
+	$("#cabaretBox").fadeOut("fast");
+	$("#tribalBox").fadeOut("fast");
+	$("#cabaretInfo").delay(500).fadeIn("fast");
+});
+$(".tribalButton").click(function() {
+	$("#cabaretBox").fadeOut("fast");
+	$("#tribalBox").fadeOut("fast");
+	$("#tribalInfo").delay(500).fadeIn("fast");
+});
+</script> 
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>
